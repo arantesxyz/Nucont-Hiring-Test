@@ -1,7 +1,7 @@
 const reqFile = require('./file');
 const fs = require('fs');
 
-const File = new reqFile('/files/level3.txt');
+const File = new reqFile('/files/level4.txt');
 
 
 File.getCollection().then((data) => {
@@ -12,5 +12,5 @@ File.getCollection().then((data) => {
     let teste = JSON.stringify(data);
     let filePath = 'out/teste.json';
     fs.writeFile(filePath, teste, 'utf8', err => 
-    err ? console.log(err) : console.log('Dados escritos em' + filePath));
+    err ? console.log(err) : console.log('Dados escritos em ' + filePath));
 });

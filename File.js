@@ -13,6 +13,12 @@ class File {
 
             this.getLines().then((data) => {
                 data.forEach(e => {
+                    if (e.length == 7){
+                        let aux = e[0];
+                        e.splice(0, 1);
+                        e.push(aux);
+
+                    }
                     if (parent != null && e[0].split('')[0] != parent.split('')[0]) {
                         parent = null;
                     }
@@ -24,7 +30,8 @@ class File {
                         debit: parseFloat(e[3]),           // number
                         credit: parseFloat(e[4]),          // number
                         finalBalance: parseFloat(e[5]),    // number
-                        parent: parent                     // null || string
+                        parent: parent,                     // null || string
+                        access: e[6] ? e[6] : null
                     });
                     parent = e[0];
                 });
@@ -56,19 +63,31 @@ class File {
     formatCode(str) {
         //fixme dont take off dots from strings
         // if the dot is is the middle of the string ? replace with a space : replace with nothing
-        let filteredDots = str.split('.').join('').split(',').join('.')
+        let aStr = '';
+        let dotAux = str.split('');
+        for (let i = 0; i < dotAux.length; i++){
+            if (dotAux[i] === '.'){
+                if (!isNaN(dotAux[i-1])){
+                    dotAux.splice(i, 1);
+                }
+            }
+        }
+        aStr = dotAux.join('');
+
+        let filteredDots = aStr.split(',').join('.');
         let aux = String(filteredDots.split('  '));
         if (str.indexOf('\t') != -1){
             aux = String(filteredDots.split('\t'))
         }
         let arr = aux.split(',').filter(a => a);
-
+        
         for (let i = 0; i < arr.length; i++) {
             arr.splice(i, 1, arr[i].trim());
             if (arr[i] === 'D' || arr[i] === 'C'){
                 arr.splice(i, 1);
             }
         }
+        console.log(arr);
         if (arr.length < 6 || isNaN(parseFloat(arr[5]))){
             return [''];
         }
