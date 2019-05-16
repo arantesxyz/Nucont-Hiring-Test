@@ -10,5 +10,6 @@ File.getCollection().then((data) => {
 
     //For testing purposes
     let teste = JSON.stringify(data);
-    fs.writeFile('out/teste.json', teste, 'utf8', err => console.log(err));
+    fs.writeFile('out/teste.json', teste, 'utf8', err => 
+    err ? console.log(err) : console.log('Dados escritos em "out/teste.json"'));
 });
