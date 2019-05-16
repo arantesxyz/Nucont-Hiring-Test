@@ -41,7 +41,7 @@ class File {
             });
 
             rd.on('line', (line) => {
-                let obj = this.removeSpacing(line);
+                let obj = this.formatCode(line);
                 if (obj != ''){ // Avoid pushing empty arrays
                     arr.push(obj);
                 }
@@ -53,7 +53,9 @@ class File {
         });
     }
 
-    removeSpacing(str) {
+    formatCode(str) {
+        //fixme dont take off dots from strings
+        // if the dot is is the middle of the string ? replace with a space : replace with nothing
         let filteredDots = str.split('.').join('').split(',').join('.')
         let aux = String(filteredDots.split('  '));
         if (str.indexOf('\t') != -1){
@@ -63,6 +65,12 @@ class File {
 
         for (let i = 0; i < arr.length; i++) {
             arr.splice(i, 1, arr[i].trim());
+            if (arr[i] === 'D' || arr[i] === 'C'){
+                arr.splice(i, 1);
+            }
+        }
+        if (arr.length < 6 || isNaN(parseFloat(arr[5]))){
+            return [''];
         }
         return arr;
     }
