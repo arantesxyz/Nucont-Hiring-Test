@@ -6,7 +6,8 @@
         "debit": 527081.41,
         "credit": 464716.15,
         "finalBalance": 1183172.93,
-        "parent": null
+        "parent": null,
+        "access": null
     },
     {
         "description": "Ativo Circulante",
@@ -15,7 +16,8 @@
         "debit": 527081.41,
         "credit": 464716.15,
         "finalBalance": 192653.83,
-        "parent": "1"
+        "parent": "1",
+        "access": null
     },
     {
         "description": "Caixa",
@@ -24,7 +26,8 @@
         "debit": 104653.71,
         "credit": 108648.69,
         "finalBalance": 6,
-        "parent": "11"
+        "parent": "11",
+        "access": null
     },
     {
         "description": "Caixa",
@@ -33,7 +36,8 @@
         "debit": 104653.71,
         "credit": 108648.69,
         "finalBalance": 6,
-        "parent": "111"
+        "parent": "111",
+        "access": null
     },
     {
         "description": "Bancos",
@@ -42,7 +46,8 @@
         "debit": 282256.32,
         "credit": 268764.52,
         "finalBalance": 58242.52,
-        "parent": "11101"
+        "parent": "11101",
+        "access": null
     },
     {
         "description": "Bradesco Conta: 9999999-9",
@@ -51,7 +56,8 @@
         "debit": 203835.57,
         "credit": 203835.57,
         "finalBalance": 1,
-        "parent": "112"
+        "parent": "112",
+        "access": null
     },
     {
         "description": "Bradesco Conta: 9999999-9",
@@ -60,7 +66,8 @@
         "debit": 64845.4,
         "credit": 64845.4,
         "finalBalance": 1,
-        "parent": "11202"
+        "parent": "11202",
+        "access": null
     },
     {
         "description": "Bradesco Conta Poupanca: 9999999-9",
@@ -69,7 +76,8 @@
         "debit": 8502.2,
         "credit": 6.78,
         "finalBalance": 14190.27,
-        "parent": "11203"
+        "parent": "11203",
+        "access": null
     },
     {
         "description": "Bradesco Conta Poupanca:9999999-9",
@@ -78,7 +86,8 @@
         "debit": 5073.15,
         "credit": 76.77,
         "finalBalance": 44050.25,
-        "parent": "11204"
+        "parent": "11204",
+        "access": null
     },
     {
         "description": "Aplicaçoes Financeiras",
@@ -87,7 +96,8 @@
         "debit": 140171.38,
         "credit": 87302.94,
         "finalBalance": 134405.31,
-        "parent": "11205"
+        "parent": "11205",
+        "access": null
     },
     {
         "description": "Bradesco Aplicaçoes 9999999-9",
@@ -96,7 +106,8 @@
         "debit": 52134,
         "credit": 12741.4,
         "finalBalance": 127220.44,
-        "parent": "113"
+        "parent": "113",
+        "access": null
     },
     {
         "description": "Bradesco Aplicaçoes 9999999-9",
@@ -105,7 +116,8 @@
         "debit": 88037.38,
         "credit": 74561.54,
         "finalBalance": 7184.87,
-        "parent": "11302"
+        "parent": "11302",
+        "access": null
     },
     {
         "description": "REALIZAVEL A LONGO PRAZO",
@@ -114,7 +126,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 12368.24,
-        "parent": "11303"
+        "parent": "11303",
+        "access": null
     },
     {
         "description": "REALIZAVEL A LONGO PRAZO",
@@ -123,7 +136,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 12368.24,
-        "parent": "12"
+        "parent": "12",
+        "access": null
     },
     {
         "description": "Emprestimos a Associados",
@@ -132,7 +146,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 12368.24,
-        "parent": "121"
+        "parent": "121",
+        "access": null
     },
     {
         "description": "PERMANENTE",
@@ -141,7 +156,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 978150.86,
-        "parent": "12102"
+        "parent": "12102",
+        "access": null
     },
     {
         "description": "IMOBILIZADO",
@@ -150,7 +166,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 976650.86,
-        "parent": "13"
+        "parent": "13",
+        "access": null
     },
     {
         "description": "Moveis e Utensilios",
@@ -159,7 +176,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 95539.5,
-        "parent": "131"
+        "parent": "131",
+        "access": null
     },
     {
         "description": "Instalacoes",
@@ -168,7 +186,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 245600.5,
-        "parent": "13104"
+        "parent": "13104",
+        "access": null
     },
     {
         "description": "Computadores e Perifericos",
@@ -177,7 +196,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 7687.41,
-        "parent": "13105"
+        "parent": "13105",
+        "access": null
     },
     {
         "description": "Sede Campestre Sindicato",
@@ -186,7 +206,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 627823.45,
-        "parent": "13106"
+        "parent": "13106",
+        "access": null
     },
     {
         "description": "Intangivel",
@@ -195,7 +216,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 1500,
-        "parent": "13108"
+        "parent": "13108",
+        "access": null
     },
     {
         "description": "Marcas e Patentes",
@@ -204,7 +226,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 1500,
-        "parent": "133"
+        "parent": "133",
+        "access": null
     },
     {
         "description": "PASSIVO",
@@ -213,7 +236,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 1080167.44,
-        "parent": null
+        "parent": null,
+        "access": null
     },
     {
         "description": "PATRIMONIO SOCIAL",
@@ -222,7 +246,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 1080167.44,
-        "parent": "2"
+        "parent": "2",
+        "access": null
     },
     {
         "description": "Superavit ou Deficit",
@@ -231,7 +256,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 1080167.44,
-        "parent": "23"
+        "parent": "23",
+        "access": null
     },
     {
         "description": "Superavit",
@@ -240,7 +266,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 1114092,
-        "parent": "232"
+        "parent": "232",
+        "access": null
     },
     {
         "description": "Deficit",
@@ -249,7 +276,8 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 33924.56,
-        "parent": "23201"
+        "parent": "23201",
+        "access": null
     },
     {
         "description": "DESPESAS E CUSTOS",
@@ -258,7 +286,8 @@
         "debit": 99112.37,
         "credit": 0,
         "finalBalance": 318510.39,
-        "parent": null
+        "parent": null,
+        "access": null
     },
     {
         "description": "Despesas Gerais",
@@ -267,7 +296,8 @@
         "debit": 85047.98,
         "credit": 0,
         "finalBalance": 279988.25,
-        "parent": "3"
+        "parent": "3",
+        "access": null
     },
     {
         "description": "Despesas com Pessoal",
@@ -276,7 +306,8 @@
         "debit": 16091.84,
         "credit": 0,
         "finalBalance": 55097.59,
-        "parent": "31"
+        "parent": "31",
+        "access": null
     },
     {
         "description": "Salarios",
@@ -285,7 +316,8 @@
         "debit": 6677.8,
         "credit": 0,
         "finalBalance": 23839.3,
-        "parent": "311"
+        "parent": "311",
+        "access": null
     },
     {
         "description": "Fgts",
@@ -294,7 +326,8 @@
         "debit": 857.24,
         "credit": 0,
         "finalBalance": 2614.79,
-        "parent": "31101"
+        "parent": "31101",
+        "access": null
     },
     {
         "description": "Previdencia Social - Inss",
@@ -303,7 +336,8 @@
         "debit": 3541.07,
         "credit": 0,
         "finalBalance": 10875.83,
-        "parent": "31103"
+        "parent": "31103",
+        "access": null
     },
     {
         "description": "Ferias",
@@ -312,25 +346,28 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 5242.1,
-        "parent": "31104"
+        "parent": "31104",
+        "access": null
     },
     {
-        "description": "Adiantamento de Salário",
+        "description": "Adiantamento de Salário.",
         "classifier": "31108",
         "openingBalance": 3250,
         "debit": 2872.13,
         "credit": 0,
         "finalBalance": 6122.13,
-        "parent": "31106"
+        "parent": "31106",
+        "access": null
     },
     {
-        "description": "Vale Transporte",
+        "description": "Vale Transporte.",
         "classifier": "31109",
         "openingBalance": 1419,
         "debit": 843.6,
         "credit": 0,
         "finalBalance": 2262.6,
-        "parent": "31108"
+        "parent": "31108",
+        "access": null
     },
     {
         "description": "Ir Retido na Fonte",
@@ -339,16 +376,18 @@
         "debit": 0,
         "credit": 0,
         "finalBalance": 500.84,
-        "parent": "31109"
+        "parent": "31109",
+        "access": null
     },
     {
-        "description": "Alimentação de Funcionários",
+        "description": "Alimentação de Funcionários.",
         "classifier": "31111",
         "openingBalance": 2340,
         "debit": 1300,
         "credit": 0,
         "finalBalance": 3640,
-        "parent": "31110"
+        "parent": "31110",
+        "access": null
     },
     {
         "description": "Despesas Administrativas e de Estrutur",
@@ -357,7 +396,8 @@
         "debit": 61210.48,
         "credit": 0,
         "finalBalance": 161951.15,
-        "parent": "31111"
+        "parent": "31111",
+        "access": null
     },
     {
         "description": "Consumo de Energia Eletrica",
@@ -366,7 +406,8 @@
         "debit": 706.67,
         "credit": 0,
         "finalBalance": 2303.25,
-        "parent": "312"
+        "parent": "312",
+        "access": null
     },
     {
         "description": "Despesas com Telefone",
@@ -375,7 +416,8 @@
         "debit": 668.4,
         "credit": 0,
         "finalBalance": 1316.8,
-        "parent": "31201"
+        "parent": "31201",
+        "access": null
     },
     {
         "description": "Consumo de Agua do Amazonas",
@@ -384,6 +426,7 @@
         "debit": 1255.21,
         "credit": 0,
         "finalBalance": 1760.13,
-        "parent": "31202"
+        "parent": "31202",
+        "access": null
     }
 ]
