@@ -61,8 +61,6 @@ class File {
     }
 
     formatCode(str) {
-        //fixme dont take off dots from strings
-        // if the dot is is the middle of the string ? replace with a space : replace with nothing
         let aStr = '';
         let dotAux = str.split('');
         for (let i = 0; i < dotAux.length; i++){
