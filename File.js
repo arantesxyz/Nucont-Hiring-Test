@@ -41,7 +41,7 @@ class File {
             });
 
             rd.on('line', (line) => {
-                let obj = this.filterDescription(this.removeSpacing(line));
+                let obj = this.removeSpacing(line);
                 if (obj != ''){ // Avoid pushing empty arrays
                     arr.push(obj);
                 }
@@ -54,34 +54,16 @@ class File {
     }
 
     removeSpacing(str) {
-        let newStr = String(str.split('\t').join(' ')).split('.').join('').split(',').join('.');
-        let arr = newStr.split(' ').filter(a => a);
+        let filteredDots = str.split('.').join('').split(',').join('.')
+        let aux = String(filteredDots.split('  '));
+        if (str.indexOf('\t') != -1){
+            aux = String(filteredDots.split('\t'))
+        }
+        let arr = aux.split(',').filter(a => a);
 
         for (let i = 0; i < arr.length; i++) {
-            arr.splice(i, 1, arr[i].trimLeft());
+            arr.splice(i, 1, arr[i].trim());
         }
-
-        return arr;
-    }
-
-    filterDescription(data) {
-        let arr = [];
-        let str = '';
-        let isOver = false;
-        for (let i = 0; i < data.length; i++) {
-            if (!parseFloat(data[i]) && !isOver) {
-                if (str != '') {
-                    str += ' ';
-                }
-                str += data[i];
-            } else {
-                arr.push(data[i]);
-            }
-            if (parseFloat(data[i + 1])) {
-                isOver = true;
-            }
-        }
-        arr.splice(1, 0, str);
         return arr;
     }
 }
