@@ -69,28 +69,31 @@ describe('Type of objects', () => {
     });
 });
 
-describe('Classifier should be able to numberParse', () => {
-    it('Level 1 classifier parse test', () => {
+// this test WILL fail because the values received in the input are not 100% right
+/*
+describe('openingBalance - debit + credit should be equals to finalBalance', () => {
+    it('Level 1 sum test', () => {
         file1.forEach(e => {
-            assert.typeOf(parseInt(e.classifier), 'number');
+            assert.equal(e.openingBalance + e.credit - e.debit, e.finalBalance);
         });
     });
 
-    it('Level 2 classifier parse test', () => {
+    it('Level 2 sum test', () => {
         file2.forEach(e => {
-            assert.typeOf(parseInt(e.classifier), 'number');
+            assert.equal(e.openingBalance + e.credit - e.debit, e.finalBalance);
         });
     });
     
-    it('Level 2 classifier parse test', () => {
+    it('Level 2 sum test', () => {
         file2.forEach(e => {
-            assert.typeOf(parseInt(e.classifier), 'number');
+            assert.equal(e.openingBalance + e.credit - e.debit, e.finalBalance);
         });
     });
     
-    it('Level 2 classifier parse test', () => {
+    it('Level 2 sum test', () => {
         file2.forEach(e => {
-            assert.typeOf(parseInt(e.classifier), 'number');
+            assert.equal(e.openingBalance + e.credit - e.debit, e.finalBalance);
         });
     });
 });
+*/
