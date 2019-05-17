@@ -16,7 +16,7 @@ class StringFormater {
     }
 
     mongoConnect() {
-        mongoose.connect(`mongodb+srv://${keys.username}:${keys.password}@nucont-ht-ratin.mongodb.net/test?retryWrites=true`, { useNewUrlParser: true });
+        mongoose.connect(keys.mongoURI, { useNewUrlParser: true });
         mongoose.Promise = global.Promise;
 
         var db = mongoose.connection;
