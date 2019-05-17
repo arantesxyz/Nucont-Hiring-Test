@@ -61,6 +61,7 @@ class File {
     }
 
     formatCode(str) {
+        // Remove only the dots that are with numbers
         let aStr = '';
         let dotAux = str.split('');
         for (let i = 0; i < dotAux.length; i++){
@@ -71,20 +72,27 @@ class File {
             }
         }
         aStr = dotAux.join('');
-
+        
+        // Replace the comma's with dots
         let filteredDots = aStr.split(',').join('.');
+        
+        // Split by tabs or 2 spaces
         let aux = String(filteredDots.split('  '));
         if (str.indexOf('\t') != -1){
             aux = String(filteredDots.split('\t'))
         }
+
+        // Remove empty (trash) objects inside the array
         let arr = aux.split(',').filter(a => a);
         
+        // Remove addicional spaces and useless Money Letters
         for (let i = 0; i < arr.length; i++) {
             arr.splice(i, 1, arr[i].trim());
             if (arr[i] === 'D' || arr[i] === 'C'){
                 arr.splice(i, 1);
             }
         }
+        // Remove the headers
         if (arr.length < 6 || isNaN(parseFloat(arr[5]))){
             return [''];
         }
