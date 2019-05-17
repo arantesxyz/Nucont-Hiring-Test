@@ -15,7 +15,7 @@ db.once('open', () => {
 });
 
 // Getting the input file
-const File = new reqFile('/../files/level3.txt');
+const File = new reqFile('/../files/level4.txt');
 
 // Return the formated data
 File.getCollection().then((data) => {

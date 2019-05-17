@@ -88,7 +88,7 @@ class File {
         // Remove addicional spaces and useless Money Letters
         for (let i = 0; i < arr.length; i++) {
             arr.splice(i, 1, arr[i].trim());
-            if (arr[i] === 'D' || arr[i] === 'C'){
+            if (arr[i] === 'D' || arr[i] === 'C' || arr[i] === ''){
                 arr.splice(i, 1);
             }
         }

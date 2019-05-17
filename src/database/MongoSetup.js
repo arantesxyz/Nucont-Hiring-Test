@@ -35,5 +35,5 @@ const dataSchema = new mongoose.Schema({
     }
 });
 
-const dbModel = mongoose.model('level3', dataSchema);
+const dbModel = mongoose.model('datas', dataSchema);
 module.exports = dbModel;
