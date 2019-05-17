@@ -4,7 +4,8 @@
   "description": "[x] Level 1\r [x] Level 2\r [x] Level 3\r [x] Level 4",
   "main": "File.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "app": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "homepage": "https://github.com/arantesxyz/nucont-HT#readme",
   "dependencies": {
     "mongoose": "^5.5.9"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   }
 }

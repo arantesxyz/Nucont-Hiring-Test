@@ -1,4 +1,3 @@
 {
-    "username": "test",
-    "password": "Cy3JT1KzmjD8zQVU"
+    "mongoURI": "mongodb+srv://test:Cy3JT1KzmjD8zQVU@nucont-ht-ratin.mongodb.net/test?retryWrites=true"
 }
