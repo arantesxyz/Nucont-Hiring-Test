@@ -8,6 +8,8 @@
 * [x] Casos de teste
 
 ---
+**Utilize NODE.js para executar a aplicação**
+
 
 * Abra o arquivo 'src/database/keys.json' e coloque a string de conexão do mongodb.
 * Abra o arquivo 'src/app' e modifique os dados necessários informando inputPath, outputPath, usarMongoDB?, collection.
