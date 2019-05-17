@@ -1,0 +1,23 @@
+{
+  "name": "HiringTest",
+  "version": "1.0.0",
+  "description": "[x] Level 1\r [x] Level 2\r [x] Level 3\r [x] Level 4",
+  "main": "File.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arantesxyz/nucont-HT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arantesxyz/nucont-HT/issues"
+  },
+  "homepage": "https://github.com/arantesxyz/nucont-HT#readme",
+  "dependencies": {
+    "mongoose": "^5.5.9"
+  }
+}
